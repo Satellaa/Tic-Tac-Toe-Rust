@@ -29,7 +29,7 @@ impl Board {
 		const WINNING_COMBINATIONS: [[usize; 3]; 8] = [
 			[0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
 			[0, 3, 6], [1, 4, 7], [2, 5, 8], // Columns
-			[0, 4, 8], [2, 4, 6],			// Diagonals
+			[0, 4, 8], [2, 4, 6],		 // Diagonals
 		];
 
 		for combo in WINNING_COMBINATIONS.iter() {
